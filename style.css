@@ -19,7 +19,8 @@ body{
 
     padding-left: 5px;
     padding-right: 5px;
-    color: rgb(255, 169, 9);
+    color: rgb(235, 152, 0);
+    font-weight: bold;
 }
 
 .head{
@@ -52,16 +53,126 @@ h1{
 /* 2nd part */
 
 .status{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .staus_Container{
     display: flex;
 }
 
-.f_content{
 
-    display: inline-block;
+
+
+.content1 {
+    display: flex;
+    padding-left: 60%;
+    color: rgb(255, 183, 49);
+}
+
+.content2 {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.profile_Image{
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Summary */ 
+
+.summary, .experience, .education{
+
+    display: flex;
+    padding-left: 10px;
+    background-color: rgb(255, 169, 9);
+    color: white;
+
+    position: absolute;
+    left:10%;
+    right:10%;
+}
+
+    
+.container_sum p{
+    position: relative;
+    left:2%;
+    right: 20%;
+    padding-top: 60px;
+    padding-left: 10%;
+    max-width: 78%;
+
+    font-size: 20px;
+    
+}
+
+.container_sum{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.exp_content a, .exp_content p{
+
+    padding-top: 60px;
+    padding-left: 100px;
+    margin-bottom: 0px;
+}
+
+
+
+
+.achievement_container{
+    display: grid;
+    grid-template-columns: 1fr 10fr ;
+    
+    padding-left: 20%;
+}
+
+/* */
+
+.achievement_years{
+
+    font-weight: bold;
+    display: flex;
+    padding-left: 50%;
+    color: rgb(145, 145, 145);
+}
+
+.achievement_details{
+    display: flex;
+    margin-bottom: -70px;
+}
+
+.det{
+    
+    font-weight: 900;
+}
+
+.det1 {
+    display: flex;
+    padding-top: -90px;
+    
+    
+}
+
+.main_cont{
+
+    margin-bottom: 150px;
+}
+.year_cont{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+}
+
+.det3{
+    
+    margin-bottom: -50px;
+    
 }
