@@ -1,0 +1,67 @@
+body{
+    font-family: "Gill Sans", sans-serif;
+}
+/* 1st part */
+
+
+.information{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.email{
+
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(255, 169, 9);
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: gray;
+
+    
+}
+
+h1{
+    
+    color: rgb(255, 248, 248);
+    margin: 5px ;
+}
+
+.f_Letter{
+    font-size: 42px;
+    
+}
+
+.boarder{
+
+    font-size: 53px;
+    color: rgb(255, 169, 9);
+}
+
+/* 2nd part */
+
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.staus_Container{
+    display: flex;
+}
+
+.f_content{
+
+    display: inline-block;
+}
